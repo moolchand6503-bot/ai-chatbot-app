@@ -1,0 +1,15 @@
+type Role = 
+ variant {
+   assistant;
+   user;
+ };
+type Message = 
+ record {
+   content: text;
+   role: Role;
+   timestamp: int;
+ };
+service : {
+  getHistory: () -> (vec Message) query;
+  sendMessage: (userMessage: text) -> (text);
+}

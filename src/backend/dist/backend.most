@@ -1,0 +1,14 @@
+// Version: 1.0.0
+type Message__454780518 =
+  {content : Text; role : Role__711988144; timestamp : Int};
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type Role__711988144 = {#assistant; #user};
+actor {
+  stable history :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Message__454780518]];
+      var elementIndex : Nat__490723111
+    }
+};

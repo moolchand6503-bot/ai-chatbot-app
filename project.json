@@ -1,0 +1,21 @@
+{
+  "overview": "A clean, modern AI chatbot app with a real-time chat interface, session-persistent conversation history, typing indicator, and smart rule-based AI responses — all styled with Tailwind CSS.",
+  "features": [
+    "Real-time chat interface with user and AI message bubbles",
+    "Session-persistent conversation history",
+    "Typing indicator animation while AI responds",
+    "Welcome message on app load",
+    "Responsive design for mobile and desktop",
+    "Smart rule-based AI responses stored in Motoko backend"
+  ],
+  "category": "productivity",
+  "tags": [
+    "chatbot",
+    "ai",
+    "chat",
+    "tailwind",
+    "responsive",
+    "messaging"
+  ],
+  "last_updated": "2026-04-12T03:00:12.340Z"
+}
